@@ -8,12 +8,12 @@ Utils plugin for Figma.
 
 ## TODO
 
-- [ ] Test Figma Plugins API
-- [ ] Setup
+- [x] Test Figma Plugins API
+- [x] Setup
 - [ ] Create Plugin UI
-- [ ] Insert Component
+- [x] Insert Component
 - [x] Locate Component
-- [ ] Replace Component
+- [x] Replace Component
 - [ ] Create an UI Page
 
 ---
