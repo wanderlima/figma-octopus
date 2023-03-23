@@ -5,8 +5,20 @@
   "main": "code.js",
   "capabilities": [],
   "enableProposedApi": false,
-  "editorType": [
-    "figma"
-  ],
-  "ui": "ui.html"
+  "editorType": ["figma"],
+  "ui": "ui.html",
+  "parameterOnly": false,
+  "parameters": [
+    {
+      "name": "Action",
+      "key": "action",
+      "description": "Select an action to run."
+    },
+    {
+      "name": "Component",
+      "key": "component",
+      "description": "Select a component.",
+      "optional": false
+    }
+  ]
 }

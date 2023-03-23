@@ -1,13 +1,18 @@
 {
   "name": "figma-octopus",
-  "version": "1.0.0",
-  "description": "Your Figma Plugin",
+  "version": "0.1.0",
+  "description": "Octopus a Figma utils plugin",
+  "private": false,
+  "author": {
+    "name": "Wander Lima",
+    "email": "hi@wanderlima.com",
+    "url": "https://wanderlima.com"
+  },
   "main": "code.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "watch": "npm run build -- --watch"
   },
-  "author": "",
   "license": "",
   "devDependencies": {
     "@figma/plugin-typings": "*",
